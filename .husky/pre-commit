@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+echo "Running pre-commit checks"
+pnpm run biome:format
+pnpm run biome:lint
+
