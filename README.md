@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## セットアップ
+```bash
+pnpm install
+pnpm dev
+```
+
+## ディレクトリ構造
+- src/app: Next.jsのルーティングとページコンポーネント
+- src/components: Reactコンポーネント
+- src/lib: ユーティリティ関数
+- src/types: 型定義
+- src/styles: グローバルスタイル
+- public: 静的アセット（画像など）
+- .github/workflows: CI/CDワークフローファイル
