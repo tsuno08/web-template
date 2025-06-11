@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@163217dfcd28294438ea1c1c149cfaf66eec283e # v4.2.2
-      - uses: pnpm/action-setup@d648c2dd069001a242c621c8306af467f150e99d # v4.1.0
+      - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
