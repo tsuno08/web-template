@@ -2,5 +2,6 @@
 
 echo "Running pre-commit checks"
 pnpm run biome:format
+git add .
 pnpm run biome:lint
 
