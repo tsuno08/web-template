@@ -53,15 +53,15 @@ This is a Next.js 15.3.3 application using React 19.1.0 with TypeScript. The pro
 ## Dependencies
 
 ### Key Production Dependencies
-- Next.js 15.3.3
-- React 19.1.0
-- React DOM 19.1.0
+- Next.js
+- React
+- React DOM
 
 ### Key Development Dependencies
-- Biome 1.9.4 (linting/formatting)
-- Tailwind CSS 4.1.8 (styling)
-- TypeScript 5.8.3
-- Husky 9.1.7 (Git hooks)
+- Biome (linting/formatting)
+- Tailwind CSS (styling)
+- TypeScript
+- Husky (Git hooks)
 
 ## Development Practices
 
